@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url('images/donation1.jpg');
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-txet {
+     text-align: center; 
+    width:826px 
+}
+.header-title{
+    font-weight: 700;
+font-size: 65px;
+line-height: 79px;
+color: #FFFFFF;
+text-align: center;
+}
+.header-description{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+width: 690px;
+padding: 20px 0;
+margin: auto;
+
+}
+.header-btn{
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding:10px 15px;
+    font-size: 18px;
+}
+/* donate dection */
+main{
+    padding: 100px 0;
+}
+section{
+    margin-top: 100px;
+}
+.donate-item{
+    margin: 30px;
+}
+.donate-today{
+    width: 1140px;
+    margin: auto;
+}
+.donate-text-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 45px;
+color: #121212;
+
+}
+.donate-text-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 690px;
+    padding: 20px 0;
+    margin: auto;
+    color: #707070;
+}
+.donate-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    align-items: center;
+}
+.donate-item h3{
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #707070; 
+}
+.donate-item .extra{
+    color:#FF5959;
+    background: #FFEEEE;
+border: 2px solid #FF5959;
+border-radius: 5px;
+padding: 43px 23px;
+}
+.other-amount{
+    /* text-align: center; */
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #B3B3B3
+}
+hr{
+    width:765px;
+    margin: auto;
+    color:#DADADA;
+    margin-bottom: 30px;
+}
+.other{
+    text-align: center;
+}
+.donate-btn{
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding:10px 15px;
+    font-size: 18px;
+ 
+}
+.plan-title{
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+margin-bottom: 20px;
+color: #121212;
+}
+.plan-description{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #707070;
+width: 690px;
+margin: auto;
+margin-bottom: 50px;
+}
+.help-wrap{
+    display: flex;
+    gap: 24px;
+    padding: 0 157px;
+}
+.help-name{
+    width:360px;
+    padding: 54px 23px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.help-name-title{
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #121212;
+margin-top: 32px;
+margin-bottom: 16px;
+}
+.help-name-description{
+    font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #707070;
+}
+.donation{
+    gap:100px
+}
+ .container{
+    display: flex;
+    gap: 93px;
+    padding:0 156px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container-img img{
+    width: 456px;
+    height: 477px;
+    margin-right: 100px;
+}
+.container-text-title{
+    font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+color: #121212;
+margin-bottom: 20px;
+}
+.container-text-description{
+    font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 20px;
+
+}
